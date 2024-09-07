@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1725523614,
+        "narHash": "sha256-PImo6zLcgrGUKx5RvDPOVi4KRa2Vqmq6xIwDjHzg35k=",
+        "type": "tarball",
+        "url": "https://mirrors.ustc.edu.cn/nix-channels/nixos-24.05/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://mirrors.ustc.edu.cn/nix-channels/nixos-24.05/nixexprs.tar.xz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
